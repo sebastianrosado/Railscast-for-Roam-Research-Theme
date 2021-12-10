@@ -238,6 +238,12 @@
   --fg-flatpickr: #999;
   --bg-flatpickr: #333;
   --fg-flatpickr-border: #e78924;
+  --rm-codeblock-fontcolor: rgb(0, 0, 0);
+}
+
+/* Fix the unreadable code block font color*/
+.cm-line {
+  color: var(--rm-filter__color_subscript) !important;
 }
 
 /* Icons */
