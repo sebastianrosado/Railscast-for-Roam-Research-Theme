@@ -241,9 +241,9 @@
   --rm-codeblock-fontcolor: rgb(0, 0, 0);
 }
 
-/* Fix the unreadable code block font color*/
+/* Fix the unreadable code block font color */
 .cm-line {
-  color: var(--rm-filter__color_subscript) !important;
+  color: var(--rm-codeblock-fontcolor) !important;
 }
 
 /* Icons */
